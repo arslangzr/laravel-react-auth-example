@@ -13,11 +13,13 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
                     {{ __('You are logged in!') }}
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+{{-- This component is being rendered from react --}}
+<div id="example"></div>
 @endsection
